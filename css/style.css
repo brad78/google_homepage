@@ -13,9 +13,8 @@
 }
 
 .search {
-	border: 1px solid #f2f2f2;
 	color: 0, 0, 0, .87;
-	background-color: #f2f2f2;
+	background-color: transparent;
 	height: 34px;
 	width: 560px;
 	margin-top: 20px;
