@@ -1,36 +1,42 @@
+body {
+  width: 500px;
+  margin: auto;
+}
 .main {
- 	position: absolute;
- 	display: block;
-	left: 34%;
-	top: 22%;
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 35%;
 }
 
 .logo {
-	position: relative;
-	left: 135px;
-	height: 92px;
-	width: 272px;
+  position: absolute;
+  left: 150px;
+  width: 272px;
+  height: 92px;
+
 }
 
 .search {
-	color: 0, 0, 0, .87;
-	background-color: transparent;
-	height: 34px;
-	width: 560px;
-	margin-top: 20px;
-	margin-bottom: 30px;
+  position: absolute;
+  top: 100px;
+  color: 0, 0, 0, .87;
+  background-color: transparent;
+  height: 34px;
+  width: 800%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  left: 50px;
 }
 
-.button {
-	position: relative;
-	left: 135px;
-}
 a {
-	text-decoration: none;
-	color: #222;
+  text-decoration: none;
+  color: #222;
 }
+
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 ul {
@@ -38,37 +44,44 @@ ul {
 }
 
 li {
-	padding: 10px;
-	display: inline;
+  padding: 10px;
+  display: inline;
 }
+
 .l {
-	position: absolute;
-	top: 20px;
-	left: 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
+
 .r {
-	position: absolute;
-	top: 20px;
-	right: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 .bl {
-	position: absolute;
-	bottom: 20px;
-	left: 20px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
 
 .br {
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 
 .s {
-  position: relative;
-  left: 135px;
-  border:none;
-  padding-right: 30px;
+   position: absolute;
+   left: 150px;
+   top: 180px;
+}
+
+.s1 {
+   position: absolute;
+   left: 300px;
+   top: 180px;
 }
 
 #si {
